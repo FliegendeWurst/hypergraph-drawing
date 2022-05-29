@@ -1,0 +1,13 @@
+digraph {
+	edge [dir="back"];
+	"Node 1" -> "Node 2" [label="Edge 1"]
+	"Node 1" -> "Node 3" [label="Edge 1"]
+	"Node 3" -> "Node 4" [label="Edge 2"]
+	"Node 3" -> "Node 5" [label="Edge 2"]
+	"Node 5" -> "Node 6" [label="Edge 3"]
+	"Node 4" -> "Node 6" [label="Edge 3"]
+	"Node 2" -> "Node 7" [label="Edge 4"]
+	"Node 6" -> "Node 7" [label="Edge 4"]
+	"Node 2" -> "Node 8" [label="Edge 5"]
+	"Node 7" -> "Node 8" [label="Edge 5"]
+}
